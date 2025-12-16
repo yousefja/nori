@@ -28,3 +28,6 @@ def basic_check(path):
 
 for f in Path("data/raw/").glob("*"):
     basic_check(str(f))
+    
+    
+    

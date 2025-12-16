@@ -1,0 +1,32 @@
+name: nori
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - geopandas
+  - shapely
+  - pyproj
+  - rtree
+  - fiona
+  - rasterio
+  - rioxarray
+  - jupyterlab
+  - xgboost
+  - lightgbm
+  - scikit-learn
+  - shap
+  - statsmodels
+  - econml
+  - dowhy
+  - causalml
+  - prefect
+  - fastapi
+  - uvicorn
+  - streamlit
+  - sqlalchemy
+  - pip
+  - pip:
+      - osmnx
+      - gtfs-kit
+      - partridge

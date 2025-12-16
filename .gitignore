@@ -13,7 +13,7 @@ processed/
 *.gpkg
 
 # Jupyter
-.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
 
 # Env
 .env
