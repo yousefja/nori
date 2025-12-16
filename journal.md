@@ -52,6 +52,7 @@
 * skipped day 1.4, acs demo bc multiple files
 * skipped day 1.7, transit 
 * because of not having the data from day 1, also skipped corresponding notebooks in day 2
+* loading opp atlas in python requires polar (alt to pandas for large dfs) 
 
 
 
@@ -64,6 +65,10 @@
 
 
 Stitch together all of the tract data
+
+
+
+when saving nyc tracts, I used arg layer=tracts. Should I be referencing this when reloading the geopackage?
 
 
 
