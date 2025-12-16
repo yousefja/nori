@@ -2,7 +2,7 @@
 
 
 
-**-------------**
+-------------
 
 **LEFT OFF HERE**
 
@@ -10,11 +10,17 @@
 
 
 
-**---------------**
+---------------
 
 **IDEAS FOR LATER**
 
-**---------------**
+---------------
+
+
+
+* **blacken scripts**
+
+
 
 
 
@@ -22,13 +28,14 @@
 
 **KEEP IN MIND THROUGHOUT**
 
-**-----------------------**
+-----------------------
 
 
 
 * pull requests
 * update journal.md
 * update running daily list below
+* add documentation to top of files when creating new 
 * THE LONGER YOU WAIT TO RENAME PROJECT, THE MORE PAINFUL THE REFACTORING
 
 
@@ -37,7 +44,7 @@
 
 **SKIPPED COME BACK TO**
 
-**--------------------**
+--------------------
 
 
 
@@ -52,7 +59,7 @@
 
 **TODO TODAY**
 
-**----------**
+----------
 
 
 
