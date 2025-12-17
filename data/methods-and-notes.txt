@@ -1,0 +1,10 @@
+Distance_To_Park
+
+To avoid duplicate representations of parks in OpenStreetMap, park point features located within park polygon boundaries were removed prior to computing access distances.
+
+For phase one, this is just the Euclidean distance, not the walking distance. However, for more meaningful distances, walking distance will be used in future sprints. 
+
+
+Park_Area_500m and Park_Area_1km
+
+These variables are potentially underestimates of the total park area within the tract buffer areas since park points do not have an area. As such, a park represented as a point is simply discarded for this calculation. An alternative approach for a future project sprint could be to assign some constant or imputed value for the area of parks that only have a point representation. However, this introduces the possibility of overestimating park area per tract as well. 
