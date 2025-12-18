@@ -1,0 +1,25 @@
+Accessibility - Is there a park nearby?
+---------------------------------------
+
+Distance_To_Park
+
+Note that this variable takes into account both point and polygon park features. If the nearest park is a point, this will be the distance computed. 
+
+To avoid duplicate representations of parks in OpenStreetMap, park point features located within park polygon boundaries were removed prior to computing access distances.
+
+For phase one, this is just the Euclidean distance, not the walking distance. However, for more meaningful distances, walking distance will be used in future sprints. 
+
+
+Capacity - How much nearby park space is available?
+--------------------------------------------------
+
+Area_Of_Nearest_Park (TODO)
+
+Although it would be ideal to have an area of a point park, this variable still offers information not captured in the Distance_To_Park variable (info about accessibility). 
+
+
+Park_Area_500m_centroid and Park_Area_1km_centroid 
+
+total area of park space intersecting 500m/1km buffer zone around tract centroids. Not to be confused with the amount of green space accessible to all tract inhabitants up to 500m/1km outside of tract. This is for consistency across tracts (i.e. tracts treated the same regardless of shape and size), and simplicity for early modeling.
+
+The calculations above are potentially underestimates of the total park area within the tract buffer areas since park points do not have an area. As such, a park represented as a point is simply discarded for this calculation. An alternative approach for a future project sprint could be to assign some constant or imputed value for the area of parks that only have a point representation. However, this introduces the possibility of overestimating park area per tract as well. 
