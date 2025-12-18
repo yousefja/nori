@@ -1,0 +1,106 @@
+\# NORI - Neighborhood Opportunity and Resilience Index (MVP) -> working title
+
+
+
+-------------
+
+**LEFT OFF HERE**
+
+-------------
+
+
+
+---------------
+
+**IDEAS FOR LATER**
+
+---------------
+
+
+
+* **blacken scripts**
+
+
+
+
+
+-----------------------
+
+**KEEP IN MIND THROUGHOUT**
+
+-----------------------
+
+
+
+* pull requests
+* update journal.md
+* update running daily list below
+* add documentation to top of files when creating new 
+* THE LONGER YOU WAIT TO RENAME PROJECT, THE MORE PAINFUL THE REFACTORING
+
+
+
+--------------------
+
+**SKIPPED COME BACK TO**
+
+--------------------
+
+
+
+* skipped day 0, repo skeleton and such - probz v important
+* skipped day 1.4, acs demo bc multiple files
+* skipped day 1.7, transit 
+* because of not having the data from day 1, also skipped corresponding notebooks in day 2
+* loading opp atlas in python requires polar (alt to pandas for large dfs) 
+
+
+
+----------
+
+**TODO TODAY**
+
+----------
+
+
+
+Stitch together all of the tract data
+
+
+
+when saving nyc tracts, I used arg layer=tracts. Should I be referencing this when reloading the geopackage?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Day 0:
+
+&nbsp;	repo scaffold and environment setup
+
+
+
+Day 1: 
+
+&nbsp;	downloaded raw data from sources
+
+
+
+
+
+
+
+
+
+
+

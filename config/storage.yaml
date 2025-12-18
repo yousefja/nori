@@ -1,0 +1,6 @@
+storage_backend: "parquet" # later -> "postgis" # options: 'parquet' or 'postgis'
+paths:
+  raw: "raw/"
+  processed: "processed/"
+  features: "features/"
+postgres_uri: "postgresql://nori:nori_pass@localhost:5432/nori_db"  # used later
