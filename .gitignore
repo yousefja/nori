@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv
+.envrc
+
+# Data
+raw/
+processed/
+*.parquet
+*.geojson
+*.gpkg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
+venv/
