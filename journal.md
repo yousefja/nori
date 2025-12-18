@@ -14,17 +14,13 @@ keep moving forward, but don't completely forget skipped items.
 
 
 
-finished distance\_to\_parks and park\_area\_<within buffer>
+clean up 08 notebook, finish raster feature engineering, ask chatgpt the best way to resolve all the open branches (given I skipped but planned to come back to branch TODO's)move on to the step below, push all changes to github, call it a nizight
 
 
 
-Go back and just QA check these to ensure they are calculating what is expected, then proceed with raster feature engineering
 
 
-
-Something to keep in mind -> buffer intersections are from the buffer of tract centroids, not tract edges. Weigh pros and cons of each approach, and whatever you go with, document this in model feature notes
-
-
+!!!!! AFTER GEO-FEATURES DONE, MERGE BRANCH WITH MAIN, THEN CONTINUE WITH BRANCHES data-ingestion and data-preprocessing to work in other data sources and extract data accordingly so that the next set of features can be engineered in branch feature-engineering
 
 
 
@@ -81,6 +77,12 @@ Day 2
 * because of not having the data from day 1, also skipped corresponding notebooks in day 2
 * loading opp atlas in python requires polar (alt to pandas for large dfs) (notebook 03)
 * master\_table does not have columns that will come from the above skipped data
+
+
+
+Day 3
+
+* Area\_Of\_Nearest\_Park\_Polygons (python notebook 08)
 
 
 
