@@ -10,10 +10,11 @@ To avoid duplicate representations of parks in OpenStreetMap, park point feature
 For phase one, this is just the Euclidean distance, not the walking distance. However, for more meaningful distances, walking distance will be used in future sprints. 
 
 
+
 Capacity - How much nearby park space is available?
 --------------------------------------------------
 
-Area_Of_Nearest_Park (TODO)
+Area_Of_Nearest_Park_Polygons (TODO)
 
 Although it would be ideal to have an area of a point park, this variable still offers information not captured in the Distance_To_Park variable (info about accessibility). 
 
