@@ -8,19 +8,10 @@
 
 -------------
 
-
-
 keep moving forward, but don't completely forget skipped items. 
 
 
-
 clean up 08 notebook, finish raster feature engineering, ask chatgpt the best way to resolve all the open branches (given I skipped but planned to come back to branch TODO's)move on to the step below, push all changes to github, call it a nizight
-
-
-
-
-
-!!!!! AFTER GEO-FEATURES DONE, MERGE BRANCH WITH MAIN, THEN CONTINUE WITH BRANCHES data-ingestion and data-preprocessing to work in other data sources and extract data accordingly so that the next set of features can be engineered in branch feature-engineering
 
 
 
@@ -30,12 +21,8 @@ clean up 08 notebook, finish raster feature engineering, ask chatgpt the best wa
 
 ---------------
 
-
-
 * **blacken scripts**
 * **remove organizing from your portfolio. Reframe as equitable social development**
-
-
 
 
 
@@ -44,7 +31,6 @@ clean up 08 notebook, finish raster feature engineering, ask chatgpt the best wa
 **KEEP IN MIND THROUGHOUT**
 
 -----------------------
-
 
 
 * pull requests
@@ -56,36 +42,6 @@ clean up 08 notebook, finish raster feature engineering, ask chatgpt the best wa
 
 
 
---------------------
-
-**SKIPPED COME BACK TO**
-
---------------------
-
-
-
-Day 1
-
-* skipped day 0, repo skeleton and such - probz v important
-* skipped day 1.4, acs demo bc multiple files
-* skipped day 1.7, transit 
-
-
-
-Day 2
-
-* because of not having the data from day 1, also skipped corresponding notebooks in day 2
-* loading opp atlas in python requires polar (alt to pandas for large dfs) (notebook 03)
-* master\_table does not have columns that will come from the above skipped data
-
-
-
-Day 3
-
-* Area\_Of\_Nearest\_Park\_Polygons (python notebook 08)
-
-
-
 ----------
 
 **TODO TODAY**
@@ -93,27 +49,22 @@ Day 3
 ----------
 
 
+review todo.txt and add todo items for today below
 
 
-
-overall goal: single tract-level table with geographic features
-
+overall goal: all features saved in csvs (these will be stored in sql db later)
 
 
-1. XX distance to nearest park
-2. XX park area within buffers
-3. tree canopy from raster data
-4. transit access + walkability (this will require revisiting skipped items)
+[ ] tree canopy from raster data
+[ ] skipped day 1.7, transit data
+[ ] transit access + walkability (this will require revisiting skipped items)
 
 
+--------------
 
+Time breakdown
 
-
-
-
-
-
-
+--------------
 
 Day 0:
 
