@@ -1,3 +1,7 @@
+Floating
+
+[ ] ctl+f "feature" -> refactor docs to disambiguate, call geographic features polygons, point geometry, park geometry and reserve "feature" for ML (specifically call it a model or engineered feature) 
+
 Data Ingestion
 
 [ ] skipped day 0, repo skeleton and such - probz v important

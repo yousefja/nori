@@ -8,10 +8,12 @@
 
 -------------
 
-keep moving forward, but don't completely forget skipped items. 
+thinking to just move forward with park features and health outcomes to get modeling pipeline up and running. Ask chat if this is a good next move
 
+currently visualizing the raster data and the results are not looking so great. QA and debug
 
-clean up 08 notebook, finish raster feature engineering, ask chatgpt the best way to resolve all the open branches (given I skipped but planned to come back to branch TODO's)move on to the step below, push all changes to github, call it a nizight
+quick visualization
+push to GitHub, done with NORI for tonight, study GIS concepts while fresh on mind
 
 
 
@@ -55,9 +57,11 @@ review todo.txt and add todo items for today below
 overall goal: all features saved in csvs (these will be stored in sql db later)
 
 
-[ ] tree canopy from raster data
+[x] tree canopy from raster data
 [ ] skipped day 1.7, transit data
 [ ] transit access + walkability (this will require revisiting skipped items)
+
+Now decide where to go next, engineer more features, or move ahead with health outcome preparation?
 
 
 --------------
