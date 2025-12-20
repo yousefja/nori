@@ -22,3 +22,4 @@ prefect
 osmnx
 partridge
 gtfs-kit
+tqdm

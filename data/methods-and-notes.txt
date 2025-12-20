@@ -24,3 +24,10 @@ Park_Area_500m_centroid and Park_Area_1km_centroid
 total area of park space intersecting 500m/1km buffer zone around tract centroids. Not to be confused with the amount of green space accessible to all tract inhabitants up to 500m/1km outside of tract. This is for consistency across tracts (i.e. tracts treated the same regardless of shape and size), and simplicity for early modeling.
 
 The calculations above are potentially underestimates of the total park area within the tract buffer areas since park points do not have an area. As such, a park represented as a point is simply discarded for this calculation. An alternative approach for a future project sprint could be to assign some constant or imputed value for the area of parks that only have a point representation. However, this introduces the possibility of overestimating park area per tract as well. 
+
+
+Capacity - how much of the tract is green?
+
+Tree_Canopy_Percent
+
+Important caveat:

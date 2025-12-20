@@ -8,11 +8,12 @@
 
 -------------
 
-thinking to just move forward with park features and health outcomes to get modeling pipeline up and running. Ask chat if this is a good next move
+move forward with park features and health outcomes to get modeling pipeline up and running. see response in NORI daily coach for details
 
-currently visualizing the raster data and the results are not looking so great. QA and debug
+raster at high-res is causing memory issues. You can either do nested windowing, or resample the raster at a lower resolution (but still high enough to capture canopies). Pick your poison.
 
-quick visualization
+quick visualization, ensure it looks good, then move on to health outcomes prep
+
 push to GitHub, done with NORI for tonight, study GIS concepts while fresh on mind
 
 
@@ -49,6 +50,23 @@ push to GitHub, done with NORI for tonight, study GIS concepts while fresh on mi
 **TODO TODAY**
 
 ----------
+
+use this for documentation:
+
+what the feature is and what its not
+
+“Tree canopy estimates are derived from NLCD 30m land cover data and primarily capture large contiguous forested areas. This metric likely underestimates fine-grained urban canopy such as street trees and small pocket parks.”
+
+why this is still used
+
+“NLCD was selected for nationwide consistency and reproducibility. While it underrepresents fine-scale urban canopy, it reliably captures larger forested areas and serves as a comparable baseline across geographies.”
+
+can I replace this with a more fine-grained raster?
+
+Yes, but its old - 2017. As long as you make note of this (see chat response for how to frame this). Here's the link:
+
+https://catalog.data.gov/dataset/land-cover-raster-data-2017-6in-resolution?utm_source=chatgpt.com
+
 
 
 review todo.txt and add todo items for today below
