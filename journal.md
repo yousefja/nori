@@ -8,6 +8,8 @@
 
 -------------
 
+filter health outcomes, consider getting confidence intervals as well, then output as... gpdk or csv?
+
 move forward with park features and health outcomes to get modeling pipeline up and running. see response in NORI daily coach for details
 
 raster at high-res is causing memory issues. You can either do nested windowing, or resample the raster at a lower resolution (but still high enough to capture canopies). Pick your poison.
@@ -51,6 +53,25 @@ push to GitHub, done with NORI for tonight, study GIS concepts while fresh on mi
 
 ----------
 
+
+
+https://catalog.data.gov/dataset/land-cover-raster-data-2017-6in-resolution?utm_source=chatgpt.com
+
+
+
+review todo.txt and add todo items for today below
+
+
+overall goal: all features saved in csvs (these will be stored in sql db later)
+
+
+[ ] tree canopy from raster data
+[ ] skipped day 1.7, transit data
+[ ] transit access + walkability (this will require revisiting skipped items)
+
+Now decide where to go next, engineer more features, or move ahead with health outcome preparation?
+
+
 use this for documentation:
 
 what the feature is and what its not
@@ -64,23 +85,6 @@ why this is still used
 can I replace this with a more fine-grained raster?
 
 Yes, but its old - 2017. As long as you make note of this (see chat response for how to frame this). Here's the link:
-
-https://catalog.data.gov/dataset/land-cover-raster-data-2017-6in-resolution?utm_source=chatgpt.com
-
-
-
-review todo.txt and add todo items for today below
-
-
-overall goal: all features saved in csvs (these will be stored in sql db later)
-
-
-[x] tree canopy from raster data
-[ ] skipped day 1.7, transit data
-[ ] transit access + walkability (this will require revisiting skipped items)
-
-Now decide where to go next, engineer more features, or move ahead with health outcome preparation?
-
 
 --------------
 
