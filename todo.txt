@@ -1,22 +1,41 @@
+--------
+Floating
+--------
+
+[ ] rename/refactor project - nori is just a working title
+[ ] ctl+f "feature" -> refactor docs to disambiguate, call geographic features polygons, point geometry, park geometry and reserve "feature" for ML (specifically call it a model or engineered feature) 
+
+--------------
 Data Ingestion
+--------------
 
 [ ] skipped day 0, repo skeleton and such - probz v important
 [ ] skipped day 1.4, acs demo bc multiple files
 [ ] skipped day 1.7, transit data
 
-
+------------------------------
 Data Extraction and Processing
+------------------------------
 
 [ ] because of not having the data from day 1, also skipped corresponding notebooks in day 2
 [ ] loading opp atlas in python requires polar (alt to pandas for large dfs) (notebook 03)
 [ ] master\_table does not have columns that will come from the above skipped data
 
-
+-------------------
 Feature Engineering
+-------------------
 
 [ ] Area\_Of\_Nearest\_Park\_Polygons (python notebook 08)
 [ ] Raster tree canopy 
 [ ] walkability 
 [ ] transit access
+
+--------------------------------
+Target Variables / Outcomes Prep
+--------------------------------
+
+[ ] cdc places health outcomes (asthma, diabetes, mental health)
+[ ] intergenerational mobility and job access metrics (data extr. - opp atlas)
+
 
 
