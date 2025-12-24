@@ -8,12 +8,12 @@
 
 -------------
 
-ML Pipeline - left off on spatial CV / clustering
-
+ACS feature engineering, then continue with day 6
 
 raster at high-res is causing memory issues. You can either do nested windowing, or resample the raster at a lower resolution (but still high enough to capture canopies). Pick your poison.
 
 quick visualization, ensure it looks good, then move on to health outcomes prep
+
 
 ---------------
 
@@ -48,10 +48,10 @@ quick visualization, ensure it looks good, then move on to health outcomes prep
 
 review todo.txt and add todo items for today below
 
-overall goal: get the model pipeline up and running, then go back and get more model features
 
-[ ] create master table SCALABLY (all features and targets per tract/row
-[ ] create ML pipeline
+[ ] ACS demographics
+[ ] econ mobility model
+[ ] handle missing values in modeling pipeline
 [ ] tree canopy from raster data
 [ ] skipped day 1.7, transit data
 [ ] transit access + walkability (this will require revisiting skipped items)
@@ -72,33 +72,7 @@ can I replace this with a more fine-grained raster?
 
 Yes, but its old - 2017. As long as you make note of this (see chat response for how to frame this). Here's the link:
 
---------------
 
-Time breakdown
-
---------------
-
-Day 0:
-
-&nbsp;	repo scaffold and environment setup
-
-
-
-Day 1: 
-
-&nbsp;	downloaded raw data from sources
-
-
-
-Day 2:
-
-&nbsp;	prepare raw data (extract, filter for nyc tracts)
-
-
-
-Day 3:
-
-&nbsp;	feature engineering
 
 
 
