@@ -9,6 +9,17 @@
 -------------
 
 ACS feature engineering, then continue with day 6
+Add ACS features to methods-and-notes (maybe rename this to model feature notes)
+
+# recommended transforms
+log_income = np.log1p(median_income)
+log_density = np.log1p(pop_density)
+
+questions:
+	
+	why log transforms?
+	 why use pop 25+ for higher ed (instead of 21 and up)?
+
 
 raster at high-res is causing memory issues. You can either do nested windowing, or resample the raster at a lower resolution (but still high enough to capture canopies). Pick your poison.
 

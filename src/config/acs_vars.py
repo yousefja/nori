@@ -66,8 +66,5 @@ ACS_VARS = {
 
     # --- Disability ---
     "B18101_001E": "disability_universe",
-    "B18101_002E": "male_with_disability",
-    "B18101_003E": "male_without_disability",
-    "B18101_004E": "female_with_disability",
-    "B18101_005E": "female_without_disability"
+    "B18101_002E": "population_with_disability",
 }
