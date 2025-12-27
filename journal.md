@@ -8,8 +8,9 @@
 
 -------------
 
-ACS feature engineering, then continue with day 6
 Add ACS features to methods-and-notes (maybe rename this to model feature notes)
+
+!!!!!!!rerun all notebooks given new csv output paths
 
 # recommended transforms
 log_income = np.log1p(median_income)
