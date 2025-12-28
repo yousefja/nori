@@ -8,6 +8,8 @@
 
 -------------
 
+Incorporate r2 and rmse into the pipeline, consider the explicit version of cv error evaluation, and the nmove forward with concluding day 6 (answering questions about performance and feature importance between outcome models)
+
 Add ACS features to methods-and-notes (maybe rename this to model feature notes)
 
 !!!!!!!rerun all notebooks given new csv output paths
