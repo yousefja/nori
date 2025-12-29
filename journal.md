@@ -1,6 +1,11 @@
 \# NORI - Neighborhood Opportunity and Resilience Index (MVP) -> working title
 
 
+The goal is to be able to target neighborhoods for interventions and developments. To build equity accordingly. 
+1. We identify which neighborhoods are doing well (the people are healthy, educated, and in good economic standing)
+2. We identify which neighborhoods are not doing well (high disease prevalence, lack of economic mobility and opportunity).
+3. We try and understand what the structural differences are between these neighborhoods that explain the different outcomes we are observing in their populations. 
+4. We use this to design programs and interventions that will build a more equitable socioeconomic landscape, ensuring all tracts have at least a baseline level of health and opportunity, closing the gap between those doing well, and those left behind.   
 
 -------------
 
@@ -12,6 +17,7 @@ shap pipeline
 answering questions about performance and feature importance between outcome models
 revisit fork in the road (where I decided to skip adding features to get pipeline moving) and see where to go from here
 
+finish editing documentation above all ipynb's
 Add ACS features to methods-and-notes (maybe rename this to model feature notes)
 
 !!!!!!!rerun all notebooks given new csv output paths
