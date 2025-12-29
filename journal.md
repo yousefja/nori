@@ -1,7 +1,7 @@
 \# NORI - Neighborhood Opportunity and Resilience Index (MVP) -> working title
 
 
-The goal is to be able to target neighborhoods for interventions and developments. To build equity accordingly. 
+The goal is to be able to target and prioritize specific neighborhoods for interventions and developments in order to build more equitable socioeconomic outcomes for all. 
 1. We identify which neighborhoods are doing well (the people are healthy, educated, and in good economic standing)
 2. We identify which neighborhoods are not doing well (high disease prevalence, lack of economic mobility and opportunity).
 3. We try and understand what the structural differences are between these neighborhoods that explain the different outcomes we are observing in their populations. 
@@ -13,8 +13,16 @@ The goal is to be able to target neighborhoods for interventions and development
 
 -------------
 
-shap pipeline 
-answering questions about performance and feature importance between outcome models
+1. shap pipeline 
+	answering questions about performance and feature importance between outcome models
+
+2. Update health pipeline, side by side comparison bw health and mobility
+3. quickly finish day 7 
+	- nori index score
+	- create map
+	- create list of ranked tracts
+4. Before moving on to causation, slap a bow on this phase of the project: NORI has been built. The rest is just add-ons (right chatgpt?). I believe you should include what you have so far into your portfolio to start applying for better jobs now, mentioning that the project is still evolving, and including a link to the repo and screenshot of map with ranked tract index next to it.
+
 revisit fork in the road (where I decided to skip adding features to get pipeline moving) and see where to go from here
 
 finish editing documentation above all ipynb's
