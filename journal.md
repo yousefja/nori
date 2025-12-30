@@ -16,6 +16,8 @@ The goal is to be able to target and prioritize specific neighborhoods for inter
 1. shap pipeline 
 	answering questions about performance and feature importance between outcome models
 
+**** ensure different kernel, ensure proper renaming of variables, restart kernel between runs to make sure, inspect new feature importance plots
+
 2. Update health pipeline, side by side comparison bw health and mobility
 3. quickly finish day 7 
 	- nori index score
