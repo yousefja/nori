@@ -13,17 +13,34 @@ The goal is to be able to target and prioritize specific neighborhoods for inter
 
 -------------
 
-1. shap pipeline 
-	answering questions about performance and feature importance between outcome models
+do this twice:
+[ ] mobility
+[ ] health 
+1. polish individual shap pipelines
+	summary of bar
+	summary of bee (chat can you give me a samply summary)
+	3-5 dependence plots
 
-**** ensure different kernel, ensure proper renaming of variables, restart kernel between runs to make sure, inspect new feature importance plots
+[ ] chat - review summaries and analyses and ensure they are logical and policy-grade
+[ ] rename health model to obesity model, or just use obesity throughout comments?
 
-2. Update health pipeline, side by side comparison bw health and mobility
+[ ] what should be the outputs/artifacts from this analysis?
+
+2. side by side comparison bw health and mobility : "Help me conclude this section"
+
+- push everything, new branch -> nori index
+
 3. quickly finish day 7 
 	- nori index score
 	- create map
 	- create list of ranked tracts
-4. Before moving on to causation, slap a bow on this phase of the project: NORI has been built. The rest is just add-ons (right chatgpt?). I believe you should include what you have so far into your portfolio to start applying for better jobs now, mentioning that the project is still evolving, and including a link to the repo and screenshot of map with ranked tract index next to it.
+
+- push everything, new branch => release version 1
+4. Follow cohesive plan to release v1
+clean up documentation in notebooks and files of all kinds
+finish feature / method descriptions
+
+5. RENAME NORI 
 
 revisit fork in the road (where I decided to skip adding features to get pipeline moving) and see where to go from here
 
