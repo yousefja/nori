@@ -12,40 +12,32 @@ The goal is to be able to target and prioritize specific neighborhoods for inter
 **LEFT OFF HERE**
 
 -------------
-
-do this twice:
+skip for now, come back after comparison SHAP
 [ ] mobility
-[ ] health 
-1. polish individual shap pipelines
 	summary of bar
 	summary of bee (chat can you give me a samply summary)
 	3-5 dependence plots
-
 [ ] chat - review summaries and analyses and ensure they are logical and policy-grade
-[ ] rename health model to obesity model, or just use obesity throughout comments?
 
-[ ] what should be the outputs/artifacts from this analysis?
-
-2. side by side comparison bw health and mobility : "Help me conclude this section"
-
-- push everything, new branch -> nori index
+Here right now
+[ ] side by side comparison bw health and mobility : "Help me conclude this section"
+[ ] Artifacts from the Comparative Health vs Mobility SHAP analysis
+[ ] push everything, new branch -> nori index
 
 3. quickly finish day 7 
-	- nori index score
-	- create map
-	- create list of ranked tracts
+[ ] nori index score
+[ ] create map
+[ ] create list of ranked tracts 
+[ ] push everything, new branch => release version 1
 
-- push everything, new branch => release version 1
 4. Follow cohesive plan to release v1
-clean up documentation in notebooks and files of all kinds
-finish feature / method descriptions
+[ ] RENAME NORI 
+[ ] clean up documentation in notebooks and files of all kinds
+[ ] finish feature / method descriptions
+[ ] Add ACS features to methods-and-notes (maybe rename this to model feature notes)
 
-5. RENAME NORI 
-
-revisit fork in the road (where I decided to skip adding features to get pipeline moving) and see where to go from here
-
-finish editing documentation above all ipynb's
-Add ACS features to methods-and-notes (maybe rename this to model feature notes)
+[ ] Portfolio Writeup
+[ ] Apply to Mercy Corps consultancy
 
 !!!!!!!rerun all notebooks given new csv output paths
 
@@ -98,8 +90,6 @@ quick visualization, ensure it looks good, then move on to health outcomes prep
 review todo.txt and add todo items for today below
 
 
-[ ] ACS demographics
-[ ] econ mobility model
 [ ] handle missing values in modeling pipeline
 [ ] tree canopy from raster data
 [ ] skipped day 1.7, transit data
