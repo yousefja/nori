@@ -1,19 +1,61 @@
 \# NORI - Neighborhood Opportunity and Resilience Index (MVP) -> working title
 
 
+The goal is to be able to target and prioritize specific neighborhoods for interventions and developments in order to build more equitable socioeconomic outcomes for all. 
+1. We identify which neighborhoods are doing well (the people are healthy, educated, and in good economic standing)
+2. We identify which neighborhoods are not doing well (high disease prevalence, lack of economic mobility and opportunity).
+3. We try and understand what the structural differences are between these neighborhoods that explain the different outcomes we are observing in their populations. 
+4. We use this to design programs and interventions that will build a more equitable socioeconomic landscape, ensuring all tracts have at least a baseline level of health and opportunity, closing the gap between those doing well, and those left behind.   
 
 -------------
 
 **LEFT OFF HERE**
 
 -------------
+skip for now, come back after comparison SHAP
+[ ] mobility
+	summary of bar
+	summary of bee (chat can you give me a samply summary)
+	3-5 dependence plots
+[ ] chat - review summaries and analyses and ensure they are logical and policy-grade
 
-ML Pipeline - left off on spatial CV / clustering
+Here right now
+[ ] side by side comparison bw health and mobility : "Help me conclude this section"
+[ ] Artifacts from the Comparative Health vs Mobility SHAP analysis
+[ ] push everything, new branch -> nori index
+
+LEFT OFF HERE: some nori are purple, but looks GREAT!!! just finalize map and get list of top 10 lowest needs and bottom 10 lowest needs
+3. quickly finish day 7 
+[x] nori index score
+[ ] create map
+[ ] create list of ranked tracts 
+[ ] push everything, new branch => release version 1
+
+4. Follow cohesive plan to release v1
+[ ] RENAME NORI 
+[ ] clean up documentation in notebooks and files of all kinds
+[ ] finish feature / method descriptions
+[ ] Add ACS features to methods-and-notes (maybe rename this to model feature notes)
+
+[ ] Portfolio Writeup
+[ ] Apply to Mercy Corps consultancy
+
+!!!!!!!rerun all notebooks given new csv output paths
+
+# recommended transforms
+log_income = np.log1p(median_income)
+log_density = np.log1p(pop_density)
+
+questions:
+	
+	why log transforms?
+	 why use pop 25+ for higher ed (instead of 21 and up)?
 
 
 raster at high-res is causing memory issues. You can either do nested windowing, or resample the raster at a lower resolution (but still high enough to capture canopies). Pick your poison.
 
 quick visualization, ensure it looks good, then move on to health outcomes prep
+
 
 ---------------
 
@@ -48,10 +90,8 @@ quick visualization, ensure it looks good, then move on to health outcomes prep
 
 review todo.txt and add todo items for today below
 
-overall goal: get the model pipeline up and running, then go back and get more model features
 
-[ ] create master table SCALABLY (all features and targets per tract/row
-[ ] create ML pipeline
+[ ] handle missing values in modeling pipeline
 [ ] tree canopy from raster data
 [ ] skipped day 1.7, transit data
 [ ] transit access + walkability (this will require revisiting skipped items)
@@ -72,33 +112,7 @@ can I replace this with a more fine-grained raster?
 
 Yes, but its old - 2017. As long as you make note of this (see chat response for how to frame this). Here's the link:
 
---------------
 
-Time breakdown
-
---------------
-
-Day 0:
-
-&nbsp;	repo scaffold and environment setup
-
-
-
-Day 1: 
-
-&nbsp;	downloaded raw data from sources
-
-
-
-Day 2:
-
-&nbsp;	prepare raw data (extract, filter for nyc tracts)
-
-
-
-Day 3:
-
-&nbsp;	feature engineering
 
 
 

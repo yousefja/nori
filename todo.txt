@@ -34,8 +34,11 @@ Feature Engineering
 Target Variables / Outcomes Prep
 --------------------------------
 
-[ ] cdc places health outcomes (asthma, diabetes, mental health)
 [ ] intergenerational mobility and job access metrics (data extr. - opp atlas)
 
+-------------
+Data Modeling
+-------------
 
+[ ] handle missing values in general ML pipeline
 
