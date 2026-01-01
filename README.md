@@ -1,6 +1,6 @@
 # Neighborhood Opportunity & Resilience Index (NORI) — NYC
 
-**One-line summary:**  
+**Summary:**  
 An explainable, tract-level machine learning system that identifies NYC neighborhoods facing compounded health risk and constrained economic mobility in order to support data-driven policy prioritization.
 
 ---
@@ -19,9 +19,6 @@ City governments, nonprofits, and policy organizations often lack a unified, dat
 
 ### Health Model — SHAP Summary
 ![Health SHAP Summary](assets/shap-health-summary.png)
-
-### Mobility Model — SHAP Summary
-![Mobility SHAP Summary](assets/shap-mobility-summary.png)
 
 ### Health Model - Median Rent Dependency Plot (Interaction with Education Attainment)
 ![Health SHAP Summary](assets/shap-dependency-health-median-rent.png)
