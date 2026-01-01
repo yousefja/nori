@@ -18,7 +18,7 @@ City governments, nonprofits, and policy organizations often lack a unified, dat
 ## Model Explainability
 
 ### Health Model — SHAP Summary
-![Health SHAP Summary](assets/shap-health-summary.png)
+![Health SHAP Summary](assets/shap-summary-health.png)
 
 ### Health Model - Median Rent Dependency Plot (Interaction with Education Attainment)
 ![Health SHAP Summary](assets/shap-dependency-health-median-rent.png)
