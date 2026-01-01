@@ -24,8 +24,9 @@ Here right now
 [ ] Artifacts from the Comparative Health vs Mobility SHAP analysis
 [ ] push everything, new branch -> nori index
 
+LEFT OFF HERE: some nori are purple, but looks GREAT!!! just finalize map and get list of top 10 lowest needs and bottom 10 lowest needs
 3. quickly finish day 7 
-[ ] nori index score
+[x] nori index score
 [ ] create map
 [ ] create list of ranked tracts 
 [ ] push everything, new branch => release version 1
