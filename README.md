@@ -1,13 +1,12 @@
 # Neighborhood Opportunity & Resilience Index (NORI) — NYC
 
 **Summary:**  
-An explainable, tract-level machine learning system that identifies NYC neighborhoods facing compounded health risk and constrained economic mobility in order to support data-driven policy prioritization.
-
+A neighborhood-level prediction system for informing targeted policy interventions and investment. Built using a combination of community health data, socioeconomic indicators, and environmental features, this tool incorporates predictions from multiple machine learning models. Together, these predictions create an integrated scoring mechanism for measuring neighborhood vulnerability to the compounded effects of health risks and strained economic opportunity. This data-driven approach facilitates more effective strategies for equitable resource allocation and the design of more interconnected, systems-based programs and interventions. 
 ---
 
 ## Problem Statement
 
-City governments, nonprofits, and policy organizations often lack a unified, data-driven way to prioritize neighborhoods for health and economic investment. Health burdens and economic mobility constraints frequently overlap, yet are analyzed in isolation. This project addresses that gap by building an explainable spatial machine learning pipeline that forecasts neighborhood-level health risk and economic mobility, then combines them into a single composite index — the **Neighborhood Opportunity & Resilience Index (NORI)** — designed for policy-relevant decision-making in New York City.
+City governments, NGO's, and policy advocates often lack a unified, data-driven way to prioritize neighborhoods for health and economic investment. Health burdens and economic mobility constraints frequently overlap, yet are analyzed in isolation. This project addresses that gap by building an explainable spatial machine learning pipeline that predicts neighborhood-level health risk and economic mobility, then combines them into a single composite index: the **Neighborhood Opportunity & Resilience Index (NORI)**. This allows for targeted, evidence-informed policy interventions. 
 
 ---
 
