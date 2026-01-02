@@ -3,6 +3,7 @@
 **Summary:**  
 
 A neighborhood-level prediction system for informing targeted policy interventions and investment. Built using a combination of community health data, socioeconomic indicators, and environmental features, this tool incorporates predictions from multiple machine learning models. Together, these predictions create an integrated scoring mechanism for measuring neighborhood vulnerability to the compounded effects of health risks and strained economic opportunity. This data-driven approach facilitates more effective strategies for equitable resource allocation and the design of more interconnected, systems-based programs and interventions. 
+
 ---
 
 ## Problem Statement
