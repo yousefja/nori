@@ -11,8 +11,6 @@ City governments, nonprofits, and policy organizations often lack a unified, dat
 
 ---
 
-## NORI Policy Prioritization Map
-
 ![Neighborhood Opportunity & Resilience Index (NYC)](assets/nori-map-v1-2.png)
 
 ## Model Explainability
